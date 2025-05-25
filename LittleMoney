@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>리틀머니 | 어린이 금융 놀이터</title>
+  <style>
+    body {
+      font-family: "Pretendard", sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #2a9d8f;
+    }
+    .button {
+      padding: 20px 40px;
+      margin: 20px;
+      background-color: #ffcc70;
+      border: none;
+      border-radius: 15px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #fcbf49;
+    }
+  </style>
+</head>
+<body>
+  <h1>🐰 리틀머니에 오신 걸 환영해요!</h1>
+  <p>오늘은 어떤 돈 모으기 모험을 떠나볼까요?</p>
+
+  <button class="button" onclick="location.href='save.html'">💰 저축하러 가기</button>
+  <button class="button" onclick="location.href='story.html'">📚 돈 이야기 듣기</button>
+  <button class="button" onclick="location.href='shop.html'">🛍️ 소비 마켓 보기</button>
+</body>
+</html>
